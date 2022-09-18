@@ -1,0 +1,104 @@
+.footer{
+    margin-top: 150px;
+
+    &_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &_list{
+        &--title{
+            list-style: none;
+            font-weight: 700;
+            font-size: 18px;
+            color: #121212;
+            text-transform: uppercase;
+
+        }
+        &--item{
+            list-style: none;
+        }
+        &--item:nth-child(2)
+        {
+            margin-top: 24px;
+        }
+
+        &--item:not(:nth-child(2))
+        {
+            margin-top: 16px;
+           
+
+        }
+        &--item:not(:nth-child(1))
+        {
+          
+            color: #6F7975;
+            font-weight: 400;
+            font-size: 16px;
+
+        }
+    
+        &--input{
+            background: #F9F9F9;
+            border-radius: 6px;
+            width: 301px;
+            padding: 9px;
+            display: flex;
+            justify-content: space-between;
+            & input{
+                background: #F9F9F9;
+                width: 100%;
+                border: none;
+                outline: none;
+                font-weight: 400;
+                font-size: 14px;
+                color: #6F7975;
+                padding-left: 16px;
+            }
+            & button{
+                padding: 14px 14px;
+                background: #FFA27C;
+                border-radius: 4px;
+                color: white;
+                border: none;
+            }
+        }
+
+    }
+
+
+    &_bottom{
+        border-top: 1px solid #E6E8EC;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 48px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+
+        &--list{
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        &--icon{
+            color: #6F7975;
+
+        }
+
+        &--icon:not(:last-child)  
+        {
+          margin-right: 24px;
+        
+        }
+
+        &--text{
+            font-weight: 400;
+            font-size: 14px;  
+            color: #6F7975;
+        }
+    }
+}

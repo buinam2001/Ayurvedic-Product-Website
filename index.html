@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+<div class="overflow">
+    <div class="wapper">
+        <header class="header">
+            <div class="container">
+                <nav>
+                    <div class="nav">
+                        <img class="nav_img" src="./img/Rat.png" alt="nav_logo">                     
+                            <ul class="nav_list">
+                               <li class="nav_item">
+                                       Home
+                                   </li>
+                                   <li class="nav_item">
+                                       About
+                                   </li>
+                                   <li class="nav_item">
+                                       Blog
+                                   </li>
+                                   <li class="nav_item">
+                                       Contact
+                                   </li>
+                                   <li class="nav_link--reposive">
+                                      <a href="#" >Get In Touch</a>  
+                                   </li>
+                                   <li onclick="handleclose()" class="nav_close">
+                                    <i class="fa-regular fa-rectangle-xmark"></i>
+                                   </li>
+                              </ul>
+                            <a href="#" class="nav_link">Get In Touch</a>  
+                            <div onclick="handledisplay()" class="menu">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            <div class="coating"></div>
+
+                       
+                    </div>
+
+                </nav>      
+                <div class="header_content">
+                    <h1 class="header_title">
+                        World Best <span class="header_color">Ayurvedic</span> 
+                        Product You Ever Think For!
+                    </h1>
+                    <p class="header_text">
+                        We build best ayurvedic product in the world. Our Product is 100% made of natural ingradients.
+                        All of the product made with great reserch and experiments.
+                    </p>
+                </div>
+            </div>
+            <div class="header_product">
+                    <div class="header_box">
+                        <div class="header_image">
+                                <img class="header_play" src="./img/Play.png" alt="image_play">
+                                <img src="./img/Rectangle 458.png" alt="image_product">
+                        </div>
+                        <div class="header_image">
+                            <img src="./img/Rectangle 457.png" alt="image_product">
+                        </div>
+                        <div class="header_image">
+                            <img src="./img/Rectangle 456.png" alt="image_product">
+                        </div>
+                    </div>
+            </div>     
+         </header>
+
+
+         <div class="container">
+             <div class="product">
+                <div class="product_content">
+                    <div class="product_our">
+                        <h3 class="product_our--title">Our Products</h3>
+                        <p class="product_our--text">
+                            We build best ayurvedic product in the world. Our Product is 100% made of natural
+                             ingradients. All of the product made with great reserch and experiments.
+                        </p>
+                    </div>
+                    <a href="#" class="product_view">View All Collections</a>
+                </div>          
+                <div class="product_categort">
+                    <div class="product_categort--seller">
+                        best seller
+                    </div>
+                    <ul class="product_categort--list">
+                        <li class="product_categort--item">New Arrival</li>
+                        <li class="product_categort--item">Seasons</li>
+                        <li class="product_categort--item">Winter</li>
+                        <li class="product_categort--item">Popular</li>
+                    </ul>
+                </div>
+                <div class="product_card">
+                    <div class="product_card--item">
+                        <img src="./img/card1.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Nesti Ayurvedic Facewash</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $29.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_card--item">
+                        <img src="./img/card 2.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Tanda Ayurvedic Bodygel</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $27.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_card--item">
+                        <img src="./img/card3.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Pata Ayurvedic Foundation</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $30.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_card--item">
+                        <img src="./img/card4.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Jakas Ayurvedic Lotion</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $20.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_card--item">
+                        <img src="./img/card5.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Tanda Ayurvedic Bodygel</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $23.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_card--item">
+                        <img src="./img/card6.png" alt="product" class="product_card--image">
+                        <h3 class="product_card--title">Pata Ayurvedic Foundation</h3>
+                        <p class="product_card--text">
+                            Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus eleifend mi in.
+                        </p>
+                        <div class="product_card--bottom">
+                            <span class="product_card--price">
+                                $33.00
+                            </span>
+                            <div class="product_card--rating">
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                <i class="fa-sharp fa-solid fa-star star"></i>
+                                (91)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                <div class="about">
+                    <div class="about_box">
+                        <div class="about_content">
+                            <h3 class="about_box--title">About Us</h3>
+                            <p class="about_box--text">Dui ut ornare lectus sit amet. Urna nunc id cursus </br> metus aliquam eleifend mi in.</p>
+                        </div>
+                        <div class="about_play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedbacks">
+                    <div class="feedbacks_box">
+                        <div class="feedbacks_content">
+                            <h3 class="feedbacks_content--title">Customers Feedbacks</h3>
+                            <p class="feedbacks_content--text">
+                                We build best ayurvedic product in the world. Our Product is 100% made of natural ingradients.
+                                All of the product made with great reserch and experiments.
+                            </p>
+                        </div>
+                        <a href="#" class="feedbacks_link">View All Products</a>
+                    </div>
+                    <div class="feedbacks_card">
+                        <div class="feedbacks_card--item">
+                            <div class="feedbacks_card--top">
+                                <div class="feedbacks_card--content">
+                                    <h4 class="feedbacks_card--title">
+                                        Callum Bolton
+                                    </h4>
+                                    <p class="feedbacks_card--designer">
+                                        UI/UX Designer 
+                                    </p>
+                                </div>
+                                <img src="./img/“.png" alt="card_image" class="feedbacks_card--image">
+                            </div>
+                            <p class="feedbacks_card--text">
+                                Nulla pulvinar felis ipsum. Nulla facilisi.
+                                Duis placerat erd urna Lorem ipsum dolor sit
+                                amet con adipiscing elit. Proin gravida orc pulvinar aliquet.
+                            </p>
+                            <div class="feedbacks_card--rating">
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                            </div>
+
+                        </div>
+                        <div class="feedbacks_card--item">
+                            <div class="feedbacks_card--top">
+                                <div class="feedbacks_card--content">
+                                    <h4 class="feedbacks_card--title">
+                                        Ethan Brooks
+                                    </h4>
+                                    <p class="feedbacks_card--designer feedbacks_color">
+                                        UI/UX Designer 
+                                    </p>
+                                </div>
+                                <img src="./img/“ (1).png" alt="card_image" class="feedbacks_card--image">
+                            </div>
+                            <p class="feedbacks_card--text">
+                                Nulla pulvinar felis ipsum. Nulla facilisi.
+                                Duis placerat erd urna Lorem ipsum dolor sit
+                                amet con adipiscing elit. Proin gravida orc pulvinar aliquet.
+                            </p>
+                            <div class="feedbacks_card--rating">
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                                <i class="fa-sharp fa-solid fa-star feedbacks_star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div> 
+         </div>
+         <div class="sletter">
+            <div class="sletter_box">
+                <h3 class="sletter_box--title">
+                    Subscribe to our Newsletter
+                </h3>
+                <p class="sletter_box--text">
+                    Dui ut ornare lectus sit amet. Urna nunc id cursus metus aliquam eleifend mi in.
+                </p>
+                <div class="sletter_from">
+                    <input placeholder="Type your email address" class="sletter_from--input" type="text">
+                    <a href="#" class="sletter_from--btn">SUBSCRIBE</a>
+                </div>
+            </div>
+         </div>
+         <div class="container">
+            <footer class="footer">
+                <div class="footer_top">
+                    <img class="footer_logo" src="./img/Rat.png" alt="logo">
+                    <ul class="footer_list">
+                        <li class="footer_list--title">Company</li>
+                        <li class="footer_list--item">Lotions</li>
+                        <li class="footer_list--item">Facewash</li>
+                        <li class="footer_list--item">Bodygel</li>
+                        <li class="footer_list--item">Cosmatics</li>
+                        <li class="footer_list--item">Nesti Product</li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li class="footer_list--title">contact</li>
+                        <li class="footer_list--item">103/2 Seddon Park, </br> Auckland, New Zealand</li>
+                        <li class="footer_list--item">(000) 123 456 789</li>
+                      
+                    </ul>
+                    <ul class="footer_list">
+                        <li class="footer_list--title">newsletter</li>
+                        <li class="footer_list--item">Subscribe our newsletter to get more free </br> design course and resource.</li>
+                        <li class="footer_list--item">
+                            <div class="footer_list--input">
+                                <input placeholder="Enter your email" type="text" />
+                                <button><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_bottom--text">Copyright © 2022 webdesign.gdn All rights reserved</p>
+                    <ul class="footer_bottom--list">
+                        <li class="footer_bottom--icon"><i class="fa-brands fa-facebook"></i></li>
+                        <li class="footer_bottom--icon"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="footer_bottom--icon"><i class="fa-brands fa-square-instagram"></i></li>
+                    </ul>
+                </div>
+            </footer>
+         </div>
+    </div>
+</div>
+</body>
+<script src="./js/index.js"></script>
+</html>
